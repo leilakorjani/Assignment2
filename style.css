@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+}
+.topic{
+    text-align: center;
+}
+.topic{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+/*.topic{
+    display: flex;
+    align-items: center;
+    justify-content: middle;
+}*/
+.avatar-image{
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: center;
+}
