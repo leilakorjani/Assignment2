@@ -4,12 +4,15 @@ html{
 header{
     text-align: center;
     border-bottom: 5px solid green;
+    width: 50%;
+    margin: 0 225px 0 225px;
 }
 .topic{
     text-align: center;
     display: flex;
     flex-flow:row wrap;
     justify-content: center;
+    font-style: italic;
 }
 .avatar-image{
     display: flex;
@@ -28,16 +31,31 @@ header{
     margin: 0;
     padding: 5px;
     width: 50%;
-    text-align: left;
+    /*text-align: left;
     justify-content: left;
     align-items: left;
-    align-content: left;
+    align-content: left;*/
     border: 5px solid rgba(146, 3, 3, 0.671);
 }
 .about-me{
     text-align: center;
 }
-.title{
+.title1{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0;
+}
+.title2{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0;
+}
+.title3{
+    margin: 0;
+}
+.title4{
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
@@ -48,10 +66,10 @@ header{
     margin: 0;
     padding: 5px;
     /*width: 50%;*/
-    text-align: left;
+    /*text-align: left;
     justify-content: left;
     align-items: left;
-    align-content: left;
+    align-content: left;*/
     border: 5px solid rgba(146, 3, 3, 0.671);
 }
 .contact-me{
