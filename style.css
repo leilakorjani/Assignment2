@@ -1,22 +1,62 @@
+html{
+    width: 900px;
+}
 header{
     text-align: center;
+    border-bottom: 5px solid green;
 }
 .topic{
     text-align: center;
-}
-.topic{
     display: flex;
     flex-flow:row wrap;
     justify-content: center;
 }
-/*.topic{
-    display: flex;
-    align-items: center;
-    justify-content: middle;
-}*/
 .avatar-image{
     display: flex;
     flex-flow:row wrap;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+}
+.main-body {
+    display: flex;
+    flex-flow: row wrap;
+}
+.first-box {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+    padding: 5px;
+    width: 50%;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    border: 5px solid rgba(146, 3, 3, 0.671);
+}
+.about-me{
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.second-box{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+    padding: 5px;
+    /*width: 50%;*/
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    border: 5px solid rgba(146, 3, 3, 0.671);
+}
+.contact-me{
+    text-align: center;
+}
+.box{
+    padding: 15px;
 }
