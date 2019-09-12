@@ -1,22 +1,23 @@
 html{;
     /*width: 900px;*/
 }
-header{
+h1{
+    display: flex;
     text-align: center;
     border-bottom: 5px solid green;
-    width: 50%;
+    width: 20rem;
     margin: 0 225px 0 225px;
 }
 .topic{
-    text-align: center;
     display: flex;
-    flex-flow:row wrap;
+    text-align: center;
+    flex-flow:row nowrap;
     justify-content: center;
+    align-items: center;
     font-style: italic;
 }
 .avatar-image{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 20px 0 20px 0;
