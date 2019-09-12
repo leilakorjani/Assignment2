@@ -4,9 +4,12 @@ html{;
 h1{
     display: flex;
     text-align: center;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: middle;
     border-bottom: 5px solid green;
-    width: 20rem;
-    margin: 0 225px 0 225px;
+    /*width: 50%;*/
+    /*margin: 0 225px 0 225px;*/
 }
 .topic{
     display: flex;
