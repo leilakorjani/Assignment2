@@ -69,13 +69,16 @@ h1{
     font-style: italic;
     text-decoration: underline;
 }
+.expectation{
+    margin: 0 0 20px 0;
+}
 .second-box{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     margin: 0;
     padding: 5px;
     width: 415px;
-    align-items: Left;
+    /*align-items: Left;*/
     /*align-content: center;
     align-items: center;
     justify-content: center;
@@ -89,13 +92,13 @@ h1{
 .contact-me{
     text-align: center;
 }
-.label{
+/*.label{
     width: 20%;
     text-align: right;
     padding: 5px;
     align-items: left;
     align-content: left
-}
+}*/
 /*.box{
     padding: 5px;
 }*/
@@ -108,4 +111,9 @@ textarea {
     height: 60px;
     padding: 15px 22px;  
 }
-
+.form_container{
+    margin: 10px;
+    padding: 15px 70px 0px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
