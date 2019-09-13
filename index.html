@@ -36,14 +36,16 @@
             <p class="contact-me">Contact Me</p>
             <div class="form_container">
                 <form action="" style="width: 50%">
-                    <label for="name">Name:</label><br><div>
-                    <input type="text" name="your-name" id="name" class="form-control" size="24%" aria-required="True" aria-invalid="false"></div>
-                    <label for="email">Email:</label><br><div>
-                    <input type="text" name="your-email" id="email" class="form-control" size="24%" aria-required="True" aria-invalid="false"> </div></P>
-                    <label for="message">Message:</label><br><textarea type="text" name="your-message" style="height:60px" ></textarea></P>
-                    <p class="send-box" style="padding-bottom: 0px;">
-                        <input class="active_button" type="submit" name="save" value="send your message" onclick="alertOff();"aria-setsize="20" aria-required="true" aria-invalid="false">
-                    </p>
+                    <ul class="flex-outer">
+                        <label class="label1" for="name">Name:</label><br><div>
+                        <input class="input-box" type="text" name="your-name" id="name"></div>
+                        <label class="label1" for="email">Email:</label><br><div>
+                        <input class="input-box" type="text" name="your-email" id="email"> </div></P>
+                        <label class="label1" for="message">Message:</label><br><textarea type="text" name="your-message" style="height:60px" ></textarea></P>
+                        <p class="send-box" style="padding-bottom: 0px;">
+                            <input class="active_button" type="submit" name="save" value="send your message" onclick="alertOff();">
+                        </p>
+                    </ul>
                 </form>
             </div>
         </div>

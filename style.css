@@ -1,5 +1,5 @@
-html{;
-   /* width: 900px;*/
+html{
+   max-width: 900px;
 }
 h1{
     display: flex;
@@ -72,38 +72,33 @@ h1{
     margin: 0;
     padding: 5px;
     width: 50%;
-    /*align-items: Left;*/
-    /*align-content: center;
-    align-items: center;
-    justify-content: center;
-    width: 50%;*/
-    /*text-align: left;
-    justify-content: left;
-    align-items: left;
-    align-content: left;*/
     border: 5px solid rgba(146, 3, 3, 0.671);
 }
 .contact-me{
     text-align: center;
 }
-/*.active_button{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}*/
+.label1{
+    position: relative;
+    left: 30px;
+}
 textarea {
-    width: 100%;
+    width: 125%;
     height: 60px;
     padding: 15px 22px;  
 }
+.form-box{
+    width: 125%;
+}
 .form_container{
+    position: relative;
     margin: 10px;
     padding: 15px 70px 0px 10px;
     border: 1px solid grey;
     border-radius: 10px;
+}
+.active_button{
+    position: relative;
+    left: 50%;
 }
 @media (max-width: 600px){
     .main-body{
