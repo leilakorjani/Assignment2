@@ -1,6 +1,7 @@
 html{
    max-width: 900px;
 }
+
 h1{
     display: flex;
     text-align: center;
@@ -9,6 +10,7 @@ h1{
     border-bottom: 5px solid green;
     margin: 0 25% 0 25%;
 }
+
 .topic{
     display: flex;
     text-align: center;
@@ -17,6 +19,7 @@ h1{
     font-style: italic;
     margin:0;
 }
+
 .avatar-image{
     display: flex;
     align-items: center;
@@ -24,13 +27,13 @@ h1{
     padding: 20px 0 20px 0;
     margin: 0;
 }
+
 .main-body {
-    /*position: static;*/
     display: flex;
     flex-wrap:row wrap;
     margin:0;
-    /*flex-flow: row wrap;*/
 }
+
 .first-box {
     display: flex;
     flex-flow: column nowrap;
@@ -38,35 +41,35 @@ h1{
     padding: 5px;
     width: 50%;
     align-items: left;
-    /*height: 100%;
-    min-width: 600px;*/
-    /*text-align: left;
-    justify-content: left;
-    align-content: left;*/
     border: 5px solid rgba(146, 3, 3, 0.671);
 }
+
 .about-me{
     text-align: center;
 }
+
 .title{
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
     margin: 0;
 }
+
 .title2{
     margin: 0;
 }
+
 .title3{
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
 }
+
 .expectation{
     margin: 0 0 60px 0;
 }
+
 .second-box{
-    /*position: relative;*/
     display: flex;
     flex-flow: column nowrap;
     margin: 0;
@@ -74,21 +77,22 @@ h1{
     width: 50%;
     border: 5px solid rgba(146, 3, 3, 0.671);
 }
+
 .contact-me{
     text-align: center;
 }
+
 .label1{
     position: relative;
     left: 30px;
 }
+
 textarea {
-    width: 125%;
+    width: 135%;
     height: 60px;
     padding: 15px 22px;  
 }
-.form-box{
-    width: 125%;
-}
+
 .form_container{
     position: relative;
     margin: 10px;
@@ -96,10 +100,12 @@ textarea {
     border: 1px solid grey;
     border-radius: 10px;
 }
+
 .active_button{
     position: relative;
     left: 50%;
 }
+
 @media (max-width: 600px){
     .main-body{
         display: block;
